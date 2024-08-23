@@ -8,6 +8,9 @@ import CustomCards from "./BootStrap/cards"
 import EmployeeDetails from "./Data/employeeData"
 import FirstComponent from "./BootStrap/bootstrapComponent"
 import CustomCarousel from "./BootStrap/bootStrapCarousel"
+import CustomIcon from "./Icons/icons"
+
+
 
 // function App() {
   
@@ -57,16 +60,10 @@ import CustomCarousel from "./BootStrap/bootStrapCarousel"
 
 function App(){
   return(
-    // EmployeeDetails.map(each=>{
-    //   return(
-    //     <>
-       
-    //     <FirstComponent/>
-    //     </>
-    //   )
-    // })
-    // <FirstComponent/>
-    <CustomCarousel/>
+    <div>
+      <FirstComponent/>
+      <CustomIcon/>
+    </div>
   )
 }
 
