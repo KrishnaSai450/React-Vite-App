@@ -1,10 +1,11 @@
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { successToasts,errorToasts } from './toastHelper';
 
 
 const CustomToast=({message})=>{
     const notify=()=>{
-        toast(message)
+        successToasts("Hii","top-right")
     }
     return(
         <div>

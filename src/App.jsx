@@ -9,6 +9,9 @@ import EmployeeDetails from "./Data/employeeData"
 import FirstComponent from "./BootStrap/bootstrapComponent"
 import CustomCarousel from "./BootStrap/bootStrapCarousel"
 import CustomIcon from "./Icons/icons"
+import Greetings from "./States/states"
+// import CardAdd from "./States/cardAdd"
+import AddingCard from "./States/AddingCards"
 
 
 
@@ -58,13 +61,24 @@ import CustomIcon from "./Icons/icons"
 // }
 
 
+// function App(){
+//   return(
+//     <div>
+//       <FirstComponent/>
+//       <CustomIcon/>
+//     </div>
+//   )
+// }
+
+
+
 function App(){
   return(
-    <div>
-      <FirstComponent/>
-      <CustomIcon/>
-    </div>
+    <>
+      {/* <Greetings/> */}
+      {/* <CardAdd/> */}
+      <AddingCard/>
+    </>
   )
 }
-
 export default App

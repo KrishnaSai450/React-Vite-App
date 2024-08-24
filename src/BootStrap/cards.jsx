@@ -5,7 +5,7 @@ import InfiniteLoader from '../Loader/infinite_loader';
 import CustomToast from '../Toasts/toasts';
 
 
-function CustomCards({title,text}) {
+function CustomCards({title,text,removeHandler,ind}) {
   return (
     <Card style={{ width: '18rem' }}>
       <Card.Body>
@@ -15,8 +15,8 @@ function CustomCards({title,text}) {
         </Card.Text>
         <CustomDNALoader/>
         <InfiniteLoader color={"blue"}/>
-        <CustomToast message={"Hii"}/>
-        <Button variant="primary">Go somewhere</Button>
+        {/* <CustomToast message={"Hii"}/> */}
+        <Button variant="primary" onClick={()=>{removeHandler(ind)}}>Remove</Button>
       </Card.Body>
     </Card>
   );
