@@ -12,6 +12,15 @@ import CustomIcon from "./Icons/icons"
 import Greetings from "./States/states"
 // import CardAdd from "./States/cardAdd"
 import AddingCard from "./States/AddingCards"
+import Recipes from "./Recipes/recipes"
+import FakeStore from "./FakeStoreData/fakeStore"
+import BulbTask from "./TaskWork/bulbOn"
+import WeatherApi from "./WeatherAPI/weatherApi"
+import { Bulb } from "./TaskWork/bulbTask"
+import { CIcon } from '@coreui/icons-react';
+import { cilList, cilShieldAlt } from '@coreui/icons';
+import CardsComponents from "./Recipes/recipes-seemore"
+
 
 
 
@@ -72,13 +81,39 @@ import AddingCard from "./States/AddingCards"
 
 
 
+// function App(){
+//   return(
+//     <>
+//       {/* <Greetings/> */}
+//       {/* <CardAdd/> */}
+//       <AddingCard/>
+//       <CustomIcon text={cilShieldAlt}/>
+//     </>
+//   )
+// }
+
+
+// function App(){
+//   return(
+//     <>
+   
+//     <FakeStore/>
+//     </>
+//   )
+// }
+
+
 function App(){
   return(
     <>
-      {/* <Greetings/> */}
-      {/* <CardAdd/> */}
-      <AddingCard/>
+      {/* <BulbTask/> */}
+      {/* <WeatherApi/> */}
+      {/* <Bulb/> */}
+      {/* <CustomIcon text={cilList}/> */}
+       {/* <Recipes/> */}
+       <CardsComponents/>
     </>
   )
 }
+
 export default App

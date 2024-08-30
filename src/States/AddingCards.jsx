@@ -36,7 +36,8 @@ class AddingCard extends Component{
                         return(
                             
                               <div className="col-sm-4">
-                                <CustomCards title={eachEmployee.name} text={eachEmployee.salary} ind={index} removeHandler={this.removeCard}/>
+                                <CustomCards title={eachEmployee.name} text={eachEmployee.salary} ind={index} removeHandler={this.removeCard} />
+                                
                               </div>
                               
                            

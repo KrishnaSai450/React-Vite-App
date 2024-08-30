@@ -6,8 +6,8 @@ const CustomList=(prop)=>{
         <ol>
         <>
         {
-        list.map((eachFruit,index)=>{
-            return <li key={index} >{eachFruit}</li>
+        list.map((eachValue)=>{
+            return <li >{eachValue}</li>
         })
         }
             </>
